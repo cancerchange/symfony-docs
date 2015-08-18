@@ -522,7 +522,7 @@ of the bundle::
     the :method:`Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller::getDoctrine`
     method of the controller. This method is a shortcut to get the
     ``doctrine`` service. You can work with Doctrine anywhere else
-    by injecting that service in the service. See
+    by injecting that service in the service container. See
     :doc:`/book/service_container` for more on creating your own services.
 
 Take a look at the previous example in more detail:
