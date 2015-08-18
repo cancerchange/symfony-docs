@@ -742,7 +742,7 @@ Doctrine's native SQL-like language called DQL to make a query for this::
     // $product = $query->setMaxResults(1)->getOneOrNullResult();
 
 If you're comfortable with SQL, then DQL should feel very natural. The biggest
-difference is that you need to think in terms of "objects" instead of rows
+difference is that you need to think in terms of "objects" instead of tables
 in a database. For this reason, you select *from* the ``AppBundle:Product``
 *object* (an optional shortcut for ``AppBundle\Entity\Product``) and then
 alias it as ``p``.
